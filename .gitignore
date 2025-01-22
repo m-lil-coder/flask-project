@@ -1,0 +1,25 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+flask_env/
+
+# Ignore Docker-related files
+*.log
+*.bak
+*.swp
+
+# Ignore Terraform files for local setups (state files should be handled remotely)
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Ignore any other sensitive files
+*.env
+*.DS_Store
+
+# Ignore Docker images, container files, etc.
+.docker/
