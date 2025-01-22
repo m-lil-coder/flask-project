@@ -20,3 +20,8 @@ This project provides a Flask-based API to store and retrieve the Terraform stat
    ```bash
    git clone https://github.com/yourusername/terraform-state-api.git
    cd terraform-state-api
+2. python3 -m venv flask_env
+source flask_env/bin/activate  # On Windows use flask_env\Scripts\activate
+pip install -r app/requirements.txt
+3. python3 app/app.py
+
