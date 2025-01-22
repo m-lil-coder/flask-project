@@ -58,4 +58,4 @@ jobs:
 
       - name: Deploy to EC2
         run: |
-          ssh -o StrictHostKeyChecking=no ec2-user@your-ec2-ip "docker pull mydockerhubusername/my-flask-app:$GITHUB_SHA && docker run -d -p 5000:5000 mydockerhubusername/my-flask-app:$GITHUB_SHA"
+          ssh -o StrictHostKeyChecking=no ec2-user@54.167.98.21 "docker pull mydockerhubusername/my-flask-app:$GITHUB_SHA && docker run -d -p 5000:5000 mydockerhubusername/my-flask-app:$GITHUB_SHA"
